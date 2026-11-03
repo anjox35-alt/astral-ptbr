@@ -3,7 +3,7 @@ import { pageOpenGraph } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: { absolute: 'Sobre e licenças | Astral' },
-  description: 'Origem open-source, créditos e limites da demonstração Astral em português do Brasil.',
+  description: 'Origem do código, créditos e limites da demonstração Astral em português do Brasil.',
   alternates: { canonical: '/about' },
   openGraph: pageOpenGraph('Sobre e licenças', 'Origem, créditos e limites da demonstração Astral.', '/about'),
 };
@@ -25,6 +25,12 @@ export default function AboutPage() {
       </p>
 
       <h2>Origem do código</h2>
+      <p>
+        Código desta adaptação:{' '}
+        <a href="https://github.com/anjox35-alt/astral-ptbr">anjox35-alt/astral-ptbr no GitHub</a>.
+        O repositório reúne a interface em português do Brasil, os testes e as instruções para
+        executar esta demonstração.
+      </p>
       <p>
         Projeto original:{' '}
         <a href="https://github.com/Renhuai123/ziwei-doushu">Renhuai123/ziwei-doushu no GitHub</a>.
