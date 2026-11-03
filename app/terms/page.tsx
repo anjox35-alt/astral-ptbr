@@ -17,7 +17,7 @@ export default function TermsPage() {
 
       <h2>O que esta demonstração oferece</h2>
       <p>
-        Astral é uma adaptação independente em português do Brasil da demonstração open-source
+        Astral é uma adaptação independente em português do Brasil da demonstração de código aberto
         ziwei-doushu. Seu recurso é a geração de um mapa básico de Zi Wei Dou Shu no navegador,
         a partir dos parâmetros fornecidos no formulário.
       </p>
@@ -59,7 +59,7 @@ export default function TermsPage() {
       <p>
         Leia a <a href="/privacy">descrição de privacidade</a> para conhecer o tratamento dos
         dados do formulário e os <a href="/about">créditos e licenças</a> para consultar a origem
-        do código. Esta versão não inclui os datasets de interpretações v3/v4 nem o corpus de
+        do código. Esta versão não inclui os conjuntos de dados de interpretações v3/v4 nem o corpus de
         citações Tian Ji do repositório original.
       </p>
     </main>

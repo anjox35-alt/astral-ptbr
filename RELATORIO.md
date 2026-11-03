@@ -55,6 +55,8 @@ Logs locais em `evidencias/*.log` (ignorados no Git). A lista detalhada de arqui
 
 Verificação remota adicional: a execução de CI [41604023667](https://github.com/anjox35-alt/astral-ptbr/actions/runs/41604023667), no commit `5d18bf9853c0722c04b8b5a397b9ae41fd4f9755`, terminou com `status=completed` e `conclusion=success`, confirmado por `gh run list` (exit 0). O workflow executa instalação pelo lockfile, typecheck, testes e build em Ubuntu/Node 22. Isto é adicional aos gates locais.
 
+Revisão editorial posterior: as páginas Sobre/Termos passaram a dizer “código aberto” e “conjuntos de dados”. Novo `npm run build`: **exit 0**, em `evidencias/build-final.log`, incluindo verificação TypeScript e todas as dez saídas estáticas. Sem mudança de lógica de cálculo após as regressões aprovadas.
+
 Varredura limitada dos 12 arquivos JavaScript de `.next/static` por padrões conhecidos de chaves de provedores: zero candidatos, comando exit 0, sem imprimir valores. Não houve chave de IA configurada; a aplicação referencia apenas SITE_URL e variáveis de ambiente da Vercel para identificar o ambiente/URL. Essa checagem não é uma auditoria exaustiva de segredos.
 
 ## Navegador local — APROVADO

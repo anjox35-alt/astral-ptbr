@@ -15,7 +15,7 @@ export default function AboutPage() {
       <h1>Sobre e licenças</h1>
       <p>
         Astral apresenta uma forma simples de gerar um mapa básico de Zi Wei Dou Shu em português
-        do Brasil. O cálculo acontece no próprio navegador, a partir do motor open-source do
+        do Brasil. O cálculo acontece no próprio navegador, a partir do motor de código aberto do
         projeto ziwei-doushu.
       </p>
       <p>
@@ -57,7 +57,7 @@ export default function AboutPage() {
 
       <h2>Conteúdo desta versão</h2>
       <p>
-        Não são utilizados os datasets de mapas e interpretações v3/v4 do projeto original.
+        Não são utilizados os conjuntos de dados de mapas e interpretações v3/v4 do projeto original.
         O corpus de citações Tian Ji e outros textos de interpretação fora do escopo também
         não integram esta demonstração.
       </p>
