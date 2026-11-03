@@ -1,0 +1,106 @@
+{
+  "previewDeployment": "dpl_ELFPpcVUDBN9MJMintvyZweeRjcf",
+  "sourceCommit": "d7295f7d058acf970b32bef7c2f0e077a7f8695d",
+  "previewDesktop": {
+    "columns": "287.797px 287.812px 287.797px 287.812px",
+    "han": false,
+    "overflow": false,
+    "palaces": 12,
+    "summary": [
+      "Nascimento informado\n31/12/2000 · 23:30\nDia usado pelo motor\n01/01/2001\nRamo do horário\nRato\nElemento e ciclo\nFogo — ciclo 6\nData no calendário lunar\n7/12/2000\nSexo usado no cálculo tradicional\nMasculino",
+      "Ramo da casa da identidade\nBoi\nRamo do corpo\nBoi"
+    ],
+    "unknownTerms": false,
+    "url": "https://astral-ptbr-preview-fon6.vercel.app",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "emptyFormMessage": "Informe uma data de nascimento válida, entre 1900 e 2100.",
+    "console": [],
+    "storage": {
+      "localStorageCount": 0,
+      "sessionStorageCount": 0
+    },
+    "network": {
+      "requestCount": 24,
+      "apiCalls": 0,
+      "postCalls": 0,
+      "externalOrigins": [],
+      "exceptionCount": 0,
+      "truncated": false,
+      "hasMore": false,
+      "embeddedResourceCount": 2,
+      "browserExtensionResourceCount": 1
+    }
+  },
+  "previewMobile": {
+    "columns": "175px 175px",
+    "han": false,
+    "overflow": false,
+    "palaces": 12,
+    "summary": [
+      "Nascimento informado\n31/12/2000 · 23:30\nDia usado pelo motor\n01/01/2001\nRamo do horário\nRato\nElemento e ciclo\nFogo — ciclo 6\nData no calendário lunar\n7/12/2000\nSexo usado no cálculo tradicional\nMasculino",
+      "Ramo da casa da identidade\nBoi\nRamo do corpo\nBoi"
+    ],
+    "unknownTerms": false,
+    "url": "https://astral-ptbr-preview-fon6.vercel.app/chart",
+    "viewport": [
+      390,
+      844
+    ],
+    "console": [],
+    "storage": {
+      "localStorageCount": 0,
+      "sessionStorageCount": 0
+    },
+    "network": {
+      "requestCount": 1,
+      "apiCalls": 0,
+      "postCalls": 0,
+      "externalOrigins": [],
+      "exceptionCount": 0,
+      "hasMore": false,
+      "truncated": false
+    }
+  },
+  "productionDesktopBeforeEditorialUpdate": {
+    "columns": "287.797px 287.812px 287.797px 287.812px",
+    "han": false,
+    "overflow": false,
+    "palaces": 12,
+    "summary": [
+      "Nascimento informado\n31/12/2000 · 23:30\nDia usado pelo motor\n01/01/2001\nRamo do horário\nRato\nElemento e ciclo\nFogo — ciclo 6\nData no calendário lunar\n7/12/2000\nSexo usado no cálculo tradicional\nMasculino",
+      "Ramo da casa da identidade\nBoi\nRamo do corpo\nBoi"
+    ],
+    "unknownTerms": false,
+    "url": "https://astral-ptbr.vercel.app",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "console": []
+  },
+  "legalLinks": [
+    {
+      "path": "/about",
+      "heading": "Sobre e licenças",
+      "forkLink": "https://github.com/anjox35-alt/astral-ptbr"
+    },
+    {
+      "path": "/privacy",
+      "heading": "Privacidade"
+    },
+    {
+      "path": "/terms",
+      "heading": "Termos de uso"
+    }
+  ],
+  "limitations": [
+    "Celular emulado; nenhum aparelho físico testado.",
+    "Preenchimento por Playwright não atualizou date/time; controles nativos AX e botão do formulário usados sem chamar o motor diretamente.",
+    "No modo celular, o botão foi acionado pelo locator semântico após o clique AX não enviar o formulário.",
+    "Duas imagens data: incorporadas e uma imagem da extensão do navegador foram observadas na captura desktop; nenhuma origem externa HTTP(S) da aplicação.",
+    "Nenhum valor de cookie, chave de armazenamento, cabeçalho ou corpo de requisição foi coletado no artefato."
+  ]
+}

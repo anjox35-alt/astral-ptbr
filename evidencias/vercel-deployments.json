@@ -1,0 +1,52 @@
+{
+  "project": "fon6/astral-ptbr",
+  "projectId": "prj_q2w1mIszCSE9qcQJxcTcSyUEtVHB",
+  "repository": "https://github.com/anjox35-alt/astral-ptbr",
+  "branch": "ptbr-preview",
+  "sourceCommit": "d7295f7d058acf970b32bef7c2f0e077a7f8695d",
+  "upstreamCommit": "a600484a49255039d0725f1ba9e11ca81a948f97",
+  "firstPreviewAttempt": {
+    "command": "vercel deploy --environment preview --project astral-ptbr --scope fon6 --yes --json --no-wait",
+    "exitCode": 1,
+    "deploymentCreated": false,
+    "reason": "A Vercel exige que o primeiro deployment seja Production.",
+    "ownerThenAuthorizedProduction": true,
+    "ownerReply": "pode fazer"
+  },
+  "preview": {
+    "id": "dpl_ELFPpcVUDBN9MJMintvyZweeRjcf",
+    "immutableUrl": "https://astral-ptbr-i7bsslmf3-fon6.vercel.app",
+    "alias": "https://astral-ptbr-preview-fon6.vercel.app",
+    "apiTarget": null,
+    "readyState": "READY",
+    "creationExitCode": 0,
+    "aliasAssignmentExitCode": 0,
+    "buildLogsReadExitCode": 0,
+    "configuredSiteUrl": "https://astral-ptbr-preview-fon6.vercel.app",
+    "robots": "noindex, nofollow"
+  },
+  "production": {
+    "id": "dpl_EjecgXbSJpCX2sNRjEEqQDoY2ogX",
+    "immutableUrl": "https://astral-ptbr-bn24ucyle-fon6.vercel.app",
+    "alias": "https://astral-ptbr.vercel.app",
+    "apiTarget": "production",
+    "readyState": "READY",
+    "creationExitCode": 0,
+    "buildLogsReadExitCode": 0,
+    "configuredSiteUrl": "https://astral-ptbr.vercel.app",
+    "robots": "index, follow"
+  },
+  "gitAutomaticDeploymentsEnabled": false,
+  "ci": {
+    "url": "https://github.com/anjox35-alt/astral-ptbr/actions/runs/41661705950",
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "d7295f7d058acf970b32bef7c2f0e077a7f8695d"
+  },
+  "notes": [
+    "Metadados e SHA foram lidos da API autenticada; verificações HTTP e navegador constam dos artefatos separados.",
+    "O primeiro Production foi autorizado como exceção à sequência original, após a CLI recusar o Preview inicial.",
+    "A revisão de créditos posterior passou no Preview antes da atualização de Production.",
+    "Registros e compra do domínio próprio ainda não foram concluídos."
+  ]
+}

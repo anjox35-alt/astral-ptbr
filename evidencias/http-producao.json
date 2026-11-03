@@ -1,0 +1,1066 @@
+{
+  "checked_at_utc": "2026-11-03T15:27:46.046Z",
+  "environment": "production",
+  "base_url": "https://astral-ptbr.vercel.app",
+  "upstream_commit": "a600484a49255039d0725f1ba9e11ca81a948f97",
+  "deployment_commit_reported_by_orchestrator": "d7295f7d058acf970b32bef7c2f0e077a7f8695d",
+  "method": "Anonymous HTTPS GET via curl.exe -q; no authentication, cookies or custom headers; no browser.",
+  "commands": {
+    "request_template": "curl.exe -q --silent --show-error --location --max-time 40 --dump-header - --write-out [status,url,content-type,tls] https://astral-ptbr.vercel.app[route]",
+    "verifier_exit_code": 0
+  },
+  "summary": {
+    "requests": 20,
+    "assertions": 175,
+    "passed": true,
+    "failed_assertions": []
+  },
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 13635,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "html_content_type": true,
+        "pt_br_language": true,
+        "astral_title": true,
+        "canonical_matches_production_route": true,
+        "og_url_production_origin": true,
+        "og_url_matches_production_route": true,
+        "og_locale_pt_br": true,
+        "og_site_name_astral": true,
+        "description_present": true,
+        "production_indexable_meta": true,
+        "no_noindex_header": true,
+        "favicon_present": true,
+        "credits_link_present": true,
+        "original_project_link_present": true
+      },
+      "seo": {
+        "title": "Astral | Mapa Zi Wei em português",
+        "html_lang": "pt-BR",
+        "canonical": "https://astral-ptbr.vercel.app",
+        "description": "Demonstração independente em português do Brasil para gerar um mapa básico de Zi Wei Dou Shu no navegador, sem inteligência artificial ou cadastro.",
+        "og_url": "https://astral-ptbr.vercel.app",
+        "og_locale": "pt_BR",
+        "og_site_name": "Astral",
+        "robots": "index, follow",
+        "favicon": "/icon.svg"
+      }
+    },
+    {
+      "path": "/chart",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/chart",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 13314,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "html_content_type": true,
+        "pt_br_language": true,
+        "astral_title": true,
+        "canonical_matches_production_route": true,
+        "og_url_production_origin": true,
+        "og_url_matches_production_route": true,
+        "og_locale_pt_br": true,
+        "og_site_name_astral": true,
+        "description_present": true,
+        "production_indexable_meta": true,
+        "no_noindex_header": true,
+        "favicon_present": true,
+        "credits_link_present": true,
+        "original_project_link_present": true
+      },
+      "seo": {
+        "title": "Gerar mapa | Astral",
+        "html_lang": "pt-BR",
+        "canonical": "https://astral-ptbr.vercel.app/chart",
+        "description": "Gere seu mapa básico de Zi Wei Dou Shu no navegador, em português do Brasil.",
+        "og_url": "https://astral-ptbr.vercel.app/chart",
+        "og_locale": "pt_BR",
+        "og_site_name": "Astral",
+        "robots": "index, follow",
+        "favicon": "/icon.svg"
+      }
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/about",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 16360,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "html_content_type": true,
+        "pt_br_language": true,
+        "astral_title": true,
+        "canonical_matches_production_route": true,
+        "og_url_production_origin": true,
+        "og_url_matches_production_route": true,
+        "og_locale_pt_br": true,
+        "og_site_name_astral": true,
+        "description_present": true,
+        "production_indexable_meta": true,
+        "no_noindex_header": true,
+        "favicon_present": true,
+        "credits_link_present": true,
+        "original_project_link_present": true,
+        "original_copyright_present": true,
+        "upstream_sha_present": true,
+        "mit_license_link_present": true,
+        "third_party_notices_link_present": true,
+        "fork_link_in_public_about_markup": true,
+        "about_description_pt_br": true,
+        "about_uses_codigo_aberto_wording": true
+      },
+      "seo": {
+        "title": "Sobre e licenças | Astral",
+        "html_lang": "pt-BR",
+        "canonical": "https://astral-ptbr.vercel.app/about",
+        "description": "Origem do código, créditos e limites da demonstração Astral em português do Brasil.",
+        "og_url": "https://astral-ptbr.vercel.app/about",
+        "og_locale": "pt_BR",
+        "og_site_name": "Astral",
+        "robots": "index, follow",
+        "favicon": "/icon.svg"
+      },
+      "fork_link": {
+        "href": "https://github.com/anjox35-alt/astral-ptbr",
+        "anchor_text": "anjox35-alt/astral-ptbr no GitHub"
+      }
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/privacy",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 14611,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "html_content_type": true,
+        "pt_br_language": true,
+        "astral_title": true,
+        "canonical_matches_production_route": true,
+        "og_url_production_origin": true,
+        "og_url_matches_production_route": true,
+        "og_locale_pt_br": true,
+        "og_site_name_astral": true,
+        "description_present": true,
+        "production_indexable_meta": true,
+        "no_noindex_header": true,
+        "favicon_present": true,
+        "credits_link_present": true,
+        "original_project_link_present": true
+      },
+      "seo": {
+        "title": "Privacidade | Astral",
+        "html_lang": "pt-BR",
+        "canonical": "https://astral-ptbr.vercel.app/privacy",
+        "description": "Como a demonstração Astral trata os dados usados para gerar o mapa no navegador.",
+        "og_url": "https://astral-ptbr.vercel.app/privacy",
+        "og_locale": "pt_BR",
+        "og_site_name": "Astral",
+        "robots": "index, follow",
+        "favicon": "/icon.svg"
+      }
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/terms",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 15264,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "html_content_type": true,
+        "pt_br_language": true,
+        "astral_title": true,
+        "canonical_matches_production_route": true,
+        "og_url_production_origin": true,
+        "og_url_matches_production_route": true,
+        "og_locale_pt_br": true,
+        "og_site_name_astral": true,
+        "description_present": true,
+        "production_indexable_meta": true,
+        "no_noindex_header": true,
+        "favicon_present": true,
+        "credits_link_present": true,
+        "original_project_link_present": true
+      },
+      "seo": {
+        "title": "Termos de uso | Astral",
+        "html_lang": "pt-BR",
+        "canonical": "https://astral-ptbr.vercel.app/terms",
+        "description": "Finalidade, limites e licença da demonstração independente Astral.",
+        "og_url": "https://astral-ptbr.vercel.app/terms",
+        "og_locale": "pt_BR",
+        "og_site_name": "Astral",
+        "robots": "index, follow",
+        "favicon": "/icon.svg"
+      }
+    },
+    {
+      "path": "/icon.svg",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/icon.svg",
+      "content_type": "image/svg+xml",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 193,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "svg_root_present": true
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/robots.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 76,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "all_user_agents": true,
+        "production_allowed": true,
+        "not_disallowed": true,
+        "production_sitemap": true
+      },
+      "robots": [
+        "User-Agent: *",
+        "Allow: /",
+        "",
+        "Sitemap: https://astral-ptbr.vercel.app/sitemap.xml"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/sitemap.xml",
+      "content_type": "application/xml",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 699,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "expected_sitemap_structure": true,
+        "five_urls_only": true,
+        "correct_production_routes": true
+      },
+      "sitemap_locations": [
+        "https://astral-ptbr.vercel.app",
+        "https://astral-ptbr.vercel.app/chart",
+        "https://astral-ptbr.vercel.app/about",
+        "https://astral-ptbr.vercel.app/privacy",
+        "https://astral-ptbr.vercel.app/terms"
+      ]
+    },
+    {
+      "path": "/licenses/LICENSE.txt",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/licenses/LICENSE.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 1090,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "matches_workspace_license_bytes": true,
+        "original_copyright_present": true,
+        "mit_permission_notice_present": true
+      },
+      "sha256": "60b3142704dd628421f647af55b2817a1756c74cd0850e7536538840bee06313"
+    },
+    {
+      "path": "/licenses/THIRD_PARTY_NOTICES.txt",
+      "status": 200,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/licenses/THIRD_PARTY_NOTICES.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 2780,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true,
+        "matches_workspace_license_bytes": true,
+        "original_copyright_present": true,
+        "mit_permission_notice_present": true,
+        "original_project_link_present": true,
+        "upstream_sha_present": true,
+        "iztro_copyright_present": true,
+        "lunar_copyright_present": true
+      },
+      "sha256": "b1858d715c1664884f490b1c3a90a6f0cf0b3d31af41991fe8c34bb64f9e83cf"
+    },
+    {
+      "path": "/heming",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/heming",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/preview",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/preview",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/knowledge",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/knowledge",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/knowledge/ziwei/career",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/knowledge/ziwei/career",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/library",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/library",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/library/search",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/library/search",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/library/gusuifu",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/library/gusuifu",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/library/gusuifu/0",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/library/gusuifu/0",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/api/interpret",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/api/interpret",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    },
+    {
+      "path": "/api/heming",
+      "status": 404,
+      "curl_exit_code": 0,
+      "effective_url": "https://astral-ptbr.vercel.app/api/heming",
+      "content_type": "text/html; charset=utf-8",
+      "tls_verification_code": "0",
+      "redirect_count": 0,
+      "x_robots_tag": null,
+      "body_bytes": 10930,
+      "assertions": {
+        "curl_succeeded": true,
+        "tls_certificate_verified": true,
+        "remained_on_production_origin": true,
+        "expected_http_status": true
+      }
+    }
+  ],
+  "limits": [
+    "HTTP validation does not execute JavaScript or prove chart generation, responsive rendering or browser-console behavior.",
+    "The deployment commit was supplied by the orchestrator and cannot be independently proven by these HTTP responses.",
+    "Indexable directives do not prove indexing by search engines.",
+    "Sitemap and SVG structure checks are targeted content assertions, not a general XML schema validation.",
+    "No authentication, credentials, other projects or browser session were accessed.",
+    "Fork link verification checks the public HTML anchor and its text; computed visual visibility requires browser validation."
+  ],
+  "network_context": "Read-only anonymous public HTTPS with network sandbox escalation; same production origin only.",
+  "attempts": [
+    {
+      "checked_at_utc": "2026-11-03T09:42:39.991Z",
+      "environment": "production",
+      "base_url": "https://astral-ptbr.vercel.app",
+      "upstream_commit": "a600484a49255039d0725f1ba9e11ca81a948f97",
+      "deployment_commit_reported_by_orchestrator": "5850d19a67656a1a04c3508ce8008d1be4d0584c",
+      "method": "Anonymous HTTPS GET via curl.exe -q; no authentication, cookies or custom headers; no browser.",
+      "commands": {
+        "request_template": "curl.exe -q --silent --show-error --location --max-time 40 --dump-header - --write-out [status,url,content-type,tls] https://astral-ptbr.vercel.app[route]",
+        "verifier_exit_code": 0
+      },
+      "summary": {
+        "requests": 20,
+        "assertions": 167,
+        "passed": true,
+        "failed_assertions": []
+      },
+      "responses": [
+        {
+          "path": "/",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 13635,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "html_content_type": true,
+            "pt_br_language": true,
+            "astral_title": true,
+            "canonical_matches_production_route": true,
+            "og_url_production_origin": true,
+            "og_locale_pt_br": true,
+            "og_site_name_astral": true,
+            "description_present": true,
+            "production_indexable_meta": true,
+            "no_noindex_header": true,
+            "favicon_present": true,
+            "credits_link_present": true,
+            "original_project_link_present": true
+          },
+          "seo": {
+            "title": "Astral | Mapa Zi Wei em português",
+            "html_lang": "pt-BR",
+            "canonical": "https://astral-ptbr.vercel.app",
+            "description": "Demonstração independente em português do Brasil para gerar um mapa básico de Zi Wei Dou Shu no navegador, sem inteligência artificial ou cadastro.",
+            "og_url": "https://astral-ptbr.vercel.app",
+            "og_locale": "pt_BR",
+            "og_site_name": "Astral",
+            "robots": "index, follow",
+            "favicon": "/icon.svg"
+          }
+        },
+        {
+          "path": "/chart",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/chart",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 13314,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "html_content_type": true,
+            "pt_br_language": true,
+            "astral_title": true,
+            "canonical_matches_production_route": true,
+            "og_url_production_origin": true,
+            "og_locale_pt_br": true,
+            "og_site_name_astral": true,
+            "description_present": true,
+            "production_indexable_meta": true,
+            "no_noindex_header": true,
+            "favicon_present": true,
+            "credits_link_present": true,
+            "original_project_link_present": true
+          },
+          "seo": {
+            "title": "Gerar mapa | Astral",
+            "html_lang": "pt-BR",
+            "canonical": "https://astral-ptbr.vercel.app/chart",
+            "description": "Gere seu mapa básico de Zi Wei Dou Shu no navegador, em português do Brasil.",
+            "og_url": "https://astral-ptbr.vercel.app/chart",
+            "og_locale": "pt_BR",
+            "og_site_name": "Astral",
+            "robots": "index, follow",
+            "favicon": "/icon.svg"
+          }
+        },
+        {
+          "path": "/about",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/about",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 15765,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "html_content_type": true,
+            "pt_br_language": true,
+            "astral_title": true,
+            "canonical_matches_production_route": true,
+            "og_url_production_origin": true,
+            "og_locale_pt_br": true,
+            "og_site_name_astral": true,
+            "description_present": true,
+            "production_indexable_meta": true,
+            "no_noindex_header": true,
+            "favicon_present": true,
+            "credits_link_present": true,
+            "original_project_link_present": true,
+            "original_copyright_present": true,
+            "upstream_sha_present": true,
+            "mit_license_link_present": true,
+            "third_party_notices_link_present": true
+          },
+          "seo": {
+            "title": "Sobre e licenças | Astral",
+            "html_lang": "pt-BR",
+            "canonical": "https://astral-ptbr.vercel.app/about",
+            "description": "Origem open-source, créditos e limites da demonstração Astral em português do Brasil.",
+            "og_url": "https://astral-ptbr.vercel.app/about",
+            "og_locale": "pt_BR",
+            "og_site_name": "Astral",
+            "robots": "index, follow",
+            "favicon": "/icon.svg"
+          }
+        },
+        {
+          "path": "/privacy",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/privacy",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 14611,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "html_content_type": true,
+            "pt_br_language": true,
+            "astral_title": true,
+            "canonical_matches_production_route": true,
+            "og_url_production_origin": true,
+            "og_locale_pt_br": true,
+            "og_site_name_astral": true,
+            "description_present": true,
+            "production_indexable_meta": true,
+            "no_noindex_header": true,
+            "favicon_present": true,
+            "credits_link_present": true,
+            "original_project_link_present": true
+          },
+          "seo": {
+            "title": "Privacidade | Astral",
+            "html_lang": "pt-BR",
+            "canonical": "https://astral-ptbr.vercel.app/privacy",
+            "description": "Como a demonstração Astral trata os dados usados para gerar o mapa no navegador.",
+            "og_url": "https://astral-ptbr.vercel.app/privacy",
+            "og_locale": "pt_BR",
+            "og_site_name": "Astral",
+            "robots": "index, follow",
+            "favicon": "/icon.svg"
+          }
+        },
+        {
+          "path": "/terms",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/terms",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 15264,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "html_content_type": true,
+            "pt_br_language": true,
+            "astral_title": true,
+            "canonical_matches_production_route": true,
+            "og_url_production_origin": true,
+            "og_locale_pt_br": true,
+            "og_site_name_astral": true,
+            "description_present": true,
+            "production_indexable_meta": true,
+            "no_noindex_header": true,
+            "favicon_present": true,
+            "credits_link_present": true,
+            "original_project_link_present": true
+          },
+          "seo": {
+            "title": "Termos de uso | Astral",
+            "html_lang": "pt-BR",
+            "canonical": "https://astral-ptbr.vercel.app/terms",
+            "description": "Finalidade, limites e licença da demonstração independente Astral.",
+            "og_url": "https://astral-ptbr.vercel.app/terms",
+            "og_locale": "pt_BR",
+            "og_site_name": "Astral",
+            "robots": "index, follow",
+            "favicon": "/icon.svg"
+          }
+        },
+        {
+          "path": "/icon.svg",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/icon.svg",
+          "content_type": "image/svg+xml",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 193,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "svg_root_present": true
+          }
+        },
+        {
+          "path": "/robots.txt",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/robots.txt",
+          "content_type": "text/plain; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 76,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "all_user_agents": true,
+            "production_allowed": true,
+            "not_disallowed": true,
+            "production_sitemap": true
+          },
+          "robots": [
+            "User-Agent: *",
+            "Allow: /",
+            "",
+            "Sitemap: https://astral-ptbr.vercel.app/sitemap.xml"
+          ]
+        },
+        {
+          "path": "/sitemap.xml",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/sitemap.xml",
+          "content_type": "application/xml",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 699,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "expected_sitemap_structure": true,
+            "five_urls_only": true,
+            "correct_production_routes": true
+          },
+          "sitemap_locations": [
+            "https://astral-ptbr.vercel.app",
+            "https://astral-ptbr.vercel.app/chart",
+            "https://astral-ptbr.vercel.app/about",
+            "https://astral-ptbr.vercel.app/privacy",
+            "https://astral-ptbr.vercel.app/terms"
+          ]
+        },
+        {
+          "path": "/licenses/LICENSE.txt",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/licenses/LICENSE.txt",
+          "content_type": "text/plain; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 1090,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "matches_workspace_license_bytes": true,
+            "original_copyright_present": true,
+            "mit_permission_notice_present": true
+          },
+          "sha256": "60b3142704dd628421f647af55b2817a1756c74cd0850e7536538840bee06313"
+        },
+        {
+          "path": "/licenses/THIRD_PARTY_NOTICES.txt",
+          "status": 200,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/licenses/THIRD_PARTY_NOTICES.txt",
+          "content_type": "text/plain; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 2780,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true,
+            "matches_workspace_license_bytes": true,
+            "original_copyright_present": true,
+            "mit_permission_notice_present": true,
+            "original_project_link_present": true,
+            "upstream_sha_present": true,
+            "iztro_copyright_present": true,
+            "lunar_copyright_present": true
+          },
+          "sha256": "b1858d715c1664884f490b1c3a90a6f0cf0b3d31af41991fe8c34bb64f9e83cf"
+        },
+        {
+          "path": "/heming",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/heming",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/preview",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/preview",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/knowledge",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/knowledge",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/knowledge/ziwei/career",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/knowledge/ziwei/career",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/library",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/library",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/library/search",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/library/search",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/library/gusuifu",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/library/gusuifu",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/library/gusuifu/0",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/library/gusuifu/0",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/api/interpret",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/api/interpret",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        },
+        {
+          "path": "/api/heming",
+          "status": 404,
+          "curl_exit_code": 0,
+          "effective_url": "https://astral-ptbr.vercel.app/api/heming",
+          "content_type": "text/html; charset=utf-8",
+          "tls_verification_code": "0",
+          "redirect_count": 0,
+          "x_robots_tag": null,
+          "body_bytes": 10930,
+          "assertions": {
+            "curl_succeeded": true,
+            "tls_certificate_verified": true,
+            "remained_on_production_origin": true,
+            "expected_http_status": true
+          }
+        }
+      ],
+      "limits": [
+        "HTTP validation does not execute JavaScript or prove chart generation, responsive rendering or browser-console behavior.",
+        "The deployment commit was supplied by the orchestrator and cannot be independently proven by these HTTP responses.",
+        "Indexable directives do not prove indexing by search engines.",
+        "Sitemap and SVG structure checks are targeted content assertions, not a general XML schema validation.",
+        "No authentication, credentials, other projects or browser session were accessed."
+      ],
+      "network_context": "Read-only public HTTP retried with network sandbox escalation after sandbox DNS resolution failure."
+    }
+  ],
+  "deployment_id_reported_by_orchestrator": "dpl_EjecgXbSJpCX2sNRjEEqQDoY2ogX"
+}

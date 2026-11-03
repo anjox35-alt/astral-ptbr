@@ -1,0 +1,505 @@
+{
+  "checked_at_utc": "2026-11-03T15:17:07.2491710Z",
+  "preview_origin": "https://astral-ptbr-preview-fon6.vercel.app",
+  "deployment_id_context": "dpl_ELFPpcVUDBN9MJMintvyZweeRjcf",
+  "commit_sha_context": "d7295f7d058acf970b32bef7c2f0e077a7f8695d",
+  "deployment_context_provided_by_root_not_independently_requeried": true,
+  "credentials_sent": false,
+  "method": "curl.exe HTTPS GET, sem credenciais, TLS validado, redirecionamentos limitados",
+  "sandbox_dns_probes": [
+    {
+      "curl_exit_code": 6,
+      "destination": "https://astral-ptbr-preview-fon6.vercel.app"
+    },
+    {
+      "curl_exit_code": 6,
+      "destination": "https://vercel.com"
+    }
+  ],
+  "public_http_execution": "require_escalated, somente leitura",
+  "attempts": [
+    {
+      "checked_at_utc": "2026-11-03T09:44:52.6377333Z",
+      "deployment_id_context": "dpl_3sSWNeTCjviYyQocnXsWjo6FDFG1",
+      "commit_sha_context": "5850d19a67656a1a04c3508ce8008d1be4d0584c",
+      "command_exit_code": 1,
+      "all_required_checks_passed": false,
+      "failed_checks": [
+        "licenses:fork_link_visible"
+      ],
+      "request_count": 23,
+      "scripts_scanned": 8,
+      "license_checks": {
+        "license_http_200": true,
+        "original_mit_matches_local": true,
+        "original_copyright_visible": true,
+        "upstream_link_visible": true,
+        "upstream_sha_visible": true,
+        "fork_link_visible": false,
+        "independent_disclaimer_visible": true,
+        "third_party_http_200": true,
+        "third_party_notices_match_local": true
+      },
+      "note": "Rodada inicial preservada: faltava link visível para o fork em /about."
+    },
+    {
+      "checked_at_utc": "2026-11-03T15:17:07.2491710Z",
+      "deployment_id_context": "dpl_ELFPpcVUDBN9MJMintvyZweeRjcf",
+      "commit_sha_context": "d7295f7d058acf970b32bef7c2f0e077a7f8695d",
+      "command_exit_code": 0,
+      "all_required_checks_passed": true,
+      "failed_checks": [],
+      "request_count": 23,
+      "scripts_scanned": 8,
+      "license_checks": {
+        "license_http_200": true,
+        "original_mit_matches_local": true,
+        "original_copyright_visible": true,
+        "upstream_link_visible": true,
+        "upstream_sha_visible": true,
+        "fork_link_visible": true,
+        "independent_disclaimer_visible": true,
+        "third_party_http_200": true,
+        "third_party_notices_match_local": true
+      },
+      "note": "Revalidação completa após ajuste editorial de /about e novo Preview."
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Astral | Mapa Zi Wei em português",
+      "description": "Demonstração independente em português do Brasil para gerar um mapa básico de Zi Wei Dou Shu no navegador, sem inteligência artificial ou cadastro.",
+      "canonical": "https://astral-ptbr-preview-fon6.vercel.app",
+      "open_graph_url": "https://astral-ptbr-preview-fon6.vercel.app",
+      "robots": "noindex, nofollow",
+      "checks": {
+        "http_200": true,
+        "curl_exit_0": true,
+        "public_origin_preserved": true,
+        "app_main_present": true,
+        "language_ptbr": true,
+        "title_astral": true,
+        "canonical_correct": true,
+        "og_url_correct": true,
+        "robots_noindex_nofollow": true
+      }
+    },
+    {
+      "path": "/chart",
+      "title": "Gerar mapa | Astral",
+      "description": "Gere seu mapa básico de Zi Wei Dou Shu no navegador, em português do Brasil.",
+      "canonical": "https://astral-ptbr-preview-fon6.vercel.app/chart",
+      "open_graph_url": "https://astral-ptbr-preview-fon6.vercel.app/chart",
+      "robots": "noindex, nofollow",
+      "checks": {
+        "http_200": true,
+        "curl_exit_0": true,
+        "public_origin_preserved": true,
+        "app_main_present": true,
+        "language_ptbr": true,
+        "title_astral": true,
+        "canonical_correct": true,
+        "og_url_correct": true,
+        "robots_noindex_nofollow": true
+      }
+    },
+    {
+      "path": "/about",
+      "title": "Sobre e licenças | Astral",
+      "description": "Origem do código, créditos e limites da demonstração Astral em português do Brasil.",
+      "canonical": "https://astral-ptbr-preview-fon6.vercel.app/about",
+      "open_graph_url": "https://astral-ptbr-preview-fon6.vercel.app/about",
+      "robots": "noindex, nofollow",
+      "checks": {
+        "http_200": true,
+        "curl_exit_0": true,
+        "public_origin_preserved": true,
+        "app_main_present": true,
+        "language_ptbr": true,
+        "title_astral": true,
+        "canonical_correct": true,
+        "og_url_correct": true,
+        "robots_noindex_nofollow": true,
+        "about_description_ptbr": true
+      }
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacidade | Astral",
+      "description": "Como a demonstração Astral trata os dados usados para gerar o mapa no navegador.",
+      "canonical": "https://astral-ptbr-preview-fon6.vercel.app/privacy",
+      "open_graph_url": "https://astral-ptbr-preview-fon6.vercel.app/privacy",
+      "robots": "noindex, nofollow",
+      "checks": {
+        "http_200": true,
+        "curl_exit_0": true,
+        "public_origin_preserved": true,
+        "app_main_present": true,
+        "language_ptbr": true,
+        "title_astral": true,
+        "canonical_correct": true,
+        "og_url_correct": true,
+        "robots_noindex_nofollow": true
+      }
+    },
+    {
+      "path": "/terms",
+      "title": "Termos de uso | Astral",
+      "description": "Finalidade, limites e licença da demonstração independente Astral.",
+      "canonical": "https://astral-ptbr-preview-fon6.vercel.app/terms",
+      "open_graph_url": "https://astral-ptbr-preview-fon6.vercel.app/terms",
+      "robots": "noindex, nofollow",
+      "checks": {
+        "http_200": true,
+        "curl_exit_0": true,
+        "public_origin_preserved": true,
+        "app_main_present": true,
+        "language_ptbr": true,
+        "title_astral": true,
+        "canonical_correct": true,
+        "og_url_correct": true,
+        "robots_noindex_nofollow": true
+      }
+    }
+  ],
+  "metadata": {
+    "sitemap_urls": [
+      "https://astral-ptbr-preview-fon6.vercel.app",
+      "https://astral-ptbr-preview-fon6.vercel.app/chart",
+      "https://astral-ptbr-preview-fon6.vercel.app/about",
+      "https://astral-ptbr-preview-fon6.vercel.app/privacy",
+      "https://astral-ptbr-preview-fon6.vercel.app/terms"
+    ],
+    "checks": {
+      "robots_http_200": true,
+      "robots_disallow_all": true,
+      "robots_sitemap_origin_correct": true,
+      "sitemap_http_200": true,
+      "sitemap_exactly_5_expected_urls": true,
+      "favicon_http_200": true,
+      "favicon_svg": true
+    }
+  },
+  "licenses": {
+    "checks": {
+      "license_http_200": true,
+      "original_mit_matches_local": true,
+      "original_copyright_visible": true,
+      "upstream_link_visible": true,
+      "upstream_sha_visible": true,
+      "fork_link_visible": true,
+      "independent_disclaimer_visible": true,
+      "third_party_http_200": true,
+      "third_party_notices_match_local": true
+    }
+  },
+  "legacy_routes": [
+    {
+      "path": "/heming",
+      "http_status": 404,
+      "curl_exit_code": 0,
+      "expected_404": true,
+      "branded_not_found": true
+    },
+    {
+      "path": "/knowledge",
+      "http_status": 404,
+      "curl_exit_code": 0,
+      "expected_404": true,
+      "branded_not_found": true
+    },
+    {
+      "path": "/library",
+      "http_status": 404,
+      "curl_exit_code": 0,
+      "expected_404": true,
+      "branded_not_found": true
+    },
+    {
+      "path": "/api/interpret",
+      "http_status": 404,
+      "curl_exit_code": 0,
+      "expected_404": true,
+      "branded_not_found": true
+    },
+    {
+      "path": "/rota-inexistente-verificacao",
+      "http_status": 404,
+      "curl_exit_code": 0,
+      "expected_404": true,
+      "branded_not_found": true
+    }
+  ],
+  "limited_source_scan": {
+    "bundles": [
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 112594
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0meshd4c712hl.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 28739
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/20xelqi0bxx4-.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 168352
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2c_2b2prcozy6.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 5361
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2wogcl4meyrt3.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 812162
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3gdxuv_y9dvs2.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 21505
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3obeljkxn9jzm.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 229820
+      },
+      {
+        "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "bytes_utf8": 10030
+      }
+    ],
+    "limits": "Varredura limitada a HTML das 5 rotas e scripts externos indicados no HTML da mesma origem, máximo40. Não prova ausência universal de segredos nem substitui inspeção de rede em navegador.",
+    "discovered_scripts": 8,
+    "checks": {
+      "all_discovered_same_origin_scripts_scanned": true,
+      "all_scanned_scripts_http_200": true,
+      "known_secret_patterns_absent": true,
+      "analytics_speed_insights_signatures_absent": true,
+      "external_script_tags_absent": true
+    },
+    "scanned_scripts": 8,
+    "external_scripts": [],
+    "matched_values_printed_or_saved": false,
+    "analytics_signature_counts": {
+      "vercel_analytics_package": 0,
+      "vercel_speed_insights_package": 0,
+      "vercel_analytics_endpoint": 0,
+      "vercel_speed_insights_endpoint": 0,
+      "vercel_analytics_host": 0,
+      "vercel_vitals_host": 0
+    },
+    "secret_pattern_counts": {
+      "openai_key_prefix": 0,
+      "anthropic_key_prefix": 0,
+      "github_token_prefix": 0,
+      "aws_access_key_id": 0,
+      "slack_token_prefix": 0,
+      "private_key_pem": 0,
+      "vercel_token_prefix": 0
+    }
+  },
+  "requests": [
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/",
+      "x_robots_tag": [],
+      "bytes_utf8": 13695
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/chart",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/chart",
+      "x_robots_tag": [],
+      "bytes_utf8": 13374
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/about",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/about",
+      "x_robots_tag": [],
+      "bytes_utf8": 16420
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/privacy",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/privacy",
+      "x_robots_tag": [],
+      "bytes_utf8": 14671
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/terms",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/terms",
+      "x_robots_tag": [],
+      "bytes_utf8": 15324
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/robots.txt",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/robots.txt",
+      "x_robots_tag": [],
+      "bytes_utf8": 92
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/sitemap.xml",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/sitemap.xml",
+      "x_robots_tag": [],
+      "bytes_utf8": 764
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/icon.svg",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/icon.svg",
+      "x_robots_tag": [],
+      "bytes_utf8": 193
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/licenses/LICENSE.txt",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/licenses/LICENSE.txt",
+      "x_robots_tag": [],
+      "bytes_utf8": 1069
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/licenses/THIRD_PARTY_NOTICES.txt",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/licenses/THIRD_PARTY_NOTICES.txt",
+      "x_robots_tag": [],
+      "bytes_utf8": 2780
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/heming",
+      "curl_exit_code": 0,
+      "http_status": 404,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/heming",
+      "x_robots_tag": [],
+      "bytes_utf8": 10990
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/knowledge",
+      "curl_exit_code": 0,
+      "http_status": 404,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/knowledge",
+      "x_robots_tag": [],
+      "bytes_utf8": 10990
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/library",
+      "curl_exit_code": 0,
+      "http_status": 404,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/library",
+      "x_robots_tag": [],
+      "bytes_utf8": 10990
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/api/interpret",
+      "curl_exit_code": 0,
+      "http_status": 404,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/api/interpret",
+      "x_robots_tag": [],
+      "bytes_utf8": 10990
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/rota-inexistente-verificacao",
+      "curl_exit_code": 0,
+      "http_status": 404,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/rota-inexistente-verificacao",
+      "x_robots_tag": [],
+      "bytes_utf8": 10990
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 112594
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0meshd4c712hl.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/0meshd4c712hl.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 28739
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/20xelqi0bxx4-.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/20xelqi0bxx4-.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 168352
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2c_2b2prcozy6.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2c_2b2prcozy6.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 5361
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2wogcl4meyrt3.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/2wogcl4meyrt3.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 812162
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3gdxuv_y9dvs2.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3gdxuv_y9dvs2.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 21505
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3obeljkxn9jzm.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/3obeljkxn9jzm.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 229820
+    },
+    {
+      "url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "effective_url": "https://astral-ptbr-preview-fon6.vercel.app/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+      "x_robots_tag": [],
+      "bytes_utf8": 10030
+    }
+  ],
+  "failed_checks": [],
+  "all_required_checks_passed": true,
+  "ui_runtime_checks": "NOT_VERIFIED por este agente; root controla CUA",
+  "command_exit_code": 0
+}

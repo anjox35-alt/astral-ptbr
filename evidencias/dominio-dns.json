@@ -1,0 +1,42 @@
+{
+  "domainChosen": "meuziwei.com",
+  "project": "fon6/astral-ptbr",
+  "addedToProject": true,
+  "addDomainCliExitCode": 0,
+  "registeredOrPurchasedByThisTask": false,
+  "apiAssociationVerified": true,
+  "apiDnsMisconfigured": true,
+  "vercelUiStatus": "Invalid Configuration",
+  "recordDisplayedByVercel": {
+    "type": "A",
+    "name": "@",
+    "value": "216.198.79.1"
+  },
+  "dnsEvidenceSources": [
+    "GET /v6/domains/meuziwei.com/config --scope fon6",
+    "https://vercel.com/fon6/astral-ptbr/settings/domains — seção DNS Records de meuziwei.com"
+  ],
+  "wwwAdded": false,
+  "redirectCreated": false,
+  "wwwAttempt": "A revisão automática recusou criar www.meuziwei.com e redirect 308 por considerar alteração adicional não autorizada especificamente. A consulta do domínio principal foi separada e concluída.",
+  "registrationQuoteObserved": {
+    "source": "Vercel search_domains e get_purchase_quote",
+    "date": "2026-11-03",
+    "availableAtLookup": true,
+    "basePriceUsd": 12.03,
+    "years": 1,
+    "autoRenew": false,
+    "taxesAndFeesMayBeAdded": true,
+    "nonRefundable": true,
+    "purchaseCompleted": false,
+    "note": "Cotação temporária, sem reserva; preço e disponibilidade precisam ser reconfirmados antes da compra. Nenhum token de cotação ou dado de pagamento foi gravado."
+  },
+  "canonicalRemains": "https://astral-ptbr.vercel.app",
+  "customDomainHttpsVerified": false,
+  "pending": [
+    "Decisão e revisão do pagamento do registro; escolher o nome não autoriza cobrança.",
+    "Registrar o domínio e configurar o registro DNS no provedor.",
+    "Confirmar propagação e HTTPS antes de alterar NEXT_PUBLIC_SITE_URL da produção.",
+    "Reconstruir e validar sitemap, canônicas e metadados no domínio próprio."
+  ]
+}

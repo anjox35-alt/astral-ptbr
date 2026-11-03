@@ -1,0 +1,185 @@
+{
+  "startedAt": "2026-11-03T09:41:41.543Z",
+  "finishedAt": "2026-11-03T09:42:20.157Z",
+  "command": "codex exec --ignore-user-config --ephemeral --json --sandbox read-only --config mcp_servers.vercel.url=<public endpoint> --config mcp_servers.vercel.startup_timeout_sec=30 -",
+  "exitCode": 0,
+  "signal": null,
+  "eventsCount": 12,
+  "serversObserved": [
+    "vercel"
+  ],
+  "calls": [
+    {
+      "attempt": 2,
+      "event": "item.completed",
+      "itemType": "mcp_tool_call",
+      "itemId": "item_2",
+      "status": "completed",
+      "server": "vercel",
+      "tool": "list_teams",
+      "arguments": "{\"limit\":100}",
+      "resultPresent": true,
+      "resultIsError": false,
+      "errorPresent": false,
+      "resultShape": [
+        "content",
+        "structured_content"
+      ],
+      "contentTypes": [
+        "text"
+      ]
+    },
+    {
+      "attempt": 2,
+      "event": "item.completed",
+      "itemType": "mcp_tool_call",
+      "itemId": "item_3",
+      "status": "completed",
+      "server": "vercel",
+      "tool": "search_vercel_documentation",
+      "arguments": "{\"topic\":\"Configure NEXT_PUBLIC_SITE_URL custom environment variable for a Next.js project in Vercel dashboard Settings Environment Variables production preview development build time redeploy\",\"tokens\":2200}",
+      "resultPresent": true,
+      "resultIsError": false,
+      "errorPresent": false,
+      "resultShape": [
+        "content",
+        "structured_content"
+      ],
+      "contentTypes": [
+        "text"
+      ]
+    },
+    {
+      "attempt": 2,
+      "event": "item.completed",
+      "itemType": "mcp_tool_call",
+      "itemId": "item_4",
+      "status": "completed",
+      "server": "vercel",
+      "tool": "search_vercel_documentation",
+      "arguments": "{\"topic\":\"environment-variables adding environment variables dashboard NEXT_PUBLIC_ Next.js browser build redeploy\",\"tokens\":1800}",
+      "resultPresent": true,
+      "resultIsError": false,
+      "errorPresent": false,
+      "resultShape": [
+        "content",
+        "structured_content"
+      ],
+      "contentTypes": [
+        "text"
+      ]
+    }
+  ],
+  "messages": [
+    "Vou verificar se as ferramentas do servidor MCP `vercel` estão disponíveis e limitar a consulta às duas ações de leitura solicitadas.",
+    "Validação somente leitura realizada pelo servidor MCP `vercel`.\n\n- **`mcp__vercel__list_teams`** — 1 chamada. Retornou a equipe **FON**, slug `fon6`, sem próxima página indicada.\n- **`mcp__vercel__search_vercel_documentation`** — 2 chamadas. Retornou documentação oficial sobre [variáveis de ambiente de projetos](https://vercel.com/docs/rest-api/projects/create-one-or-more-environment-variables) e [gerenciamento de variáveis](https://vercel.com/docs/cli/env), mas não trouxe instruções específicas para `NEXT_PUBLIC_SITE_URL`. Portanto, essa configuração não ficou validada pelos resultados.\n\nLimitações: a busca do próprio MCP utiliza o índice Context7. `functions.exec` foi usado para descobrir e invocar ferramentas; nenhum shell, código local, arquivo, conector substituto ou autenticação foi utilizado. Nenhum recurso foi alterado."
+  ],
+  "logFormat": "Sanitized selected event fields; tool response values intentionally omitted.",
+  "priorAttempts": [
+    {
+      "startedAt": "2026-11-03T09:40:49.650Z",
+      "finishedAt": "2026-11-03T09:40:49.799Z",
+      "command": "codex exec --ignore-user-config --ephemeral --json --sandbox read-only --config mcp_servers.vercel.url=<public endpoint> --config mcp_servers.vercel.startup_timeout_sec=30 -",
+      "exitCode": 1,
+      "signal": null,
+      "eventsCount": 0,
+      "serversObserved": [],
+      "calls": [],
+      "messages": [],
+      "logFormat": "Sanitized selected event fields; tool response values intentionally omitted.",
+      "diagnostics": [
+        {
+          "category": "PATH_ALIAS_DENIED"
+        },
+        {
+          "category": "LOCAL_STATE_DB_DENIED"
+        },
+        {
+          "category": "LOCAL_STATE_DB_DENIED"
+        },
+        {
+          "category": "APP_SERVER_STARTUP_DENIED"
+        }
+      ],
+      "sensitiveHeadersAndResponseBodiesExcluded": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "category": "POWERSHELL_SNAPSHOT_UNSUPPORTED"
+    },
+    {
+      "category": "PLUGIN_METADATA_MISMATCH"
+    },
+    {
+      "category": "HTTP_403_RESPONSE_BODY_EXCLUDED"
+    },
+    {
+      "server": "openai-api-credit-promo",
+      "category": "HTTP_403_RESPONSE_BODY_EXCLUDED"
+    },
+    {
+      "category": "HTTP_403_RESPONSE_BODY_EXCLUDED"
+    },
+    {
+      "category": "OTHER_DIAGNOSTIC_EXCLUDED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "server": "appdeploy",
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "server": "neon",
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "server": "firecrawl",
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "category": "HTTP_403_RESPONSE_BODY_EXCLUDED"
+    },
+    {
+      "category": "HTTP_403_RESPONSE_BODY_EXCLUDED"
+    },
+    {
+      "category": "OTHER_DIAGNOSTIC_EXCLUDED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    },
+    {
+      "category": "MCP_AUTH_REQUIRED"
+    }
+  ],
+  "sensitiveHeadersAndResponseBodiesExcluded": true,
+  "startupServersWithWarnings": [
+    "openai-api-credit-promo",
+    "appdeploy",
+    "neon",
+    "firecrawl"
+  ],
+  "startupIsolationVerified": false,
+  "limitations": [
+    "The CLI auto-discovered plugin MCP servers even with --ignore-user-config. Only vercel has recorded model tool calls.",
+    "CLI diagnostics are retained only as categories and server names; headers and response bodies are excluded.",
+    "Documentation searches succeeded but did not validate specific NEXT_PUBLIC_SITE_URL guidance."
+  ],
+  "nestedShellEvents": 0,
+  "artifactSensitivePatternCheck": {
+    "checked": true,
+    "candidatesFound": false
+  }
+}
