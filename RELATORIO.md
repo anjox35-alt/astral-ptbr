@@ -53,6 +53,10 @@ Tentativas não aprovadas como sucesso: a instalação limpa restrita encontrou 
 
 Logs locais em `evidencias/*.log` (ignorados no Git). A lista detalhada de arquivos está em `evidencias/arquivos-alterados.txt`.
 
+Verificação remota adicional: a execução de CI [41604023667](https://github.com/anjox35-alt/astral-ptbr/actions/runs/41604023667), no commit `5d18bf9853c0722c04b8b5a397b9ae41fd4f9755`, terminou com `status=completed` e `conclusion=success`, confirmado por `gh run list` (exit 0). O workflow executa instalação pelo lockfile, typecheck, testes e build em Ubuntu/Node 22. Isto é adicional aos gates locais.
+
+Varredura limitada dos 12 arquivos JavaScript de `.next/static` por padrões conhecidos de chaves de provedores: zero candidatos, comando exit 0, sem imprimir valores. Não houve chave de IA configurada; a aplicação referencia apenas SITE_URL e variáveis de ambiente da Vercel para identificar o ambiente/URL. Essa checagem não é uma auditoria exaustiva de segredos.
+
 ## Navegador local — APROVADO
 
 URL testada: **http://localhost:3000**. Testes na aplicação compilada, por Chrome DevTools, em contexto isolado.
@@ -71,12 +75,18 @@ URL testada: **http://localhost:3000**. Testes na aplicação compilada, por Chr
 
 ## Preview Vercel
 
-Somente iniciado após os gates locais. Em preparação.
+Somente iniciado após os gates locais. **IMPEDIDO POR ACESSO — nenhuma URL Preview criada.**
 
-- Repositório independente planejado: `anjox35-alt/astral-ptbr`.
+- Repositório independente criado e enviado: https://github.com/anjox35-alt/astral-ptbr, branch `ptbr-preview`.
+- Commit de implementação validada: `5d18bf9853c0722c04b8b5a397b9ae41fd4f9755`. Histórico raiz independente, sem pais upstream. Motor e licenças comparados contra a branch upstream local: nenhuma diferença.
 - Única equipe Vercel acessível encontrada: FON (`fon6`).
 - `vercel.json` desativa deploys automáticos por Git; Preview será solicitado explicitamente pela API.
 - NEXT_PUBLIC_SITE_URL precisa corresponder à URL real fornecida pela Vercel; não foi inventado domínio ou alias.
+- Criação pelo conector `create_project`, escopo explícito `fon6`, projeto `astral-ptbr`: Vercel retornou **403 forbidden — You don't have permission to create the project**. Não houve projeto criado ou deploy.
+- Alternativa indicada pelo próprio conector: CLI oficial. Versão consultada no registro npm: 65.10.0. `npx --yes --package=vercel@65.10.0 vercel whoami --scope fon6`: **exit 1, login_required, saved login is not valid or has expired**.
+- Navegador em `https://vercel.com/dashboard` redirecionou para login. Nenhuma autenticação nova foi feita e nenhuma credencial foi alterada.
+- Solicitação de autorização para login oficial apresentada ao proprietário, porque suas instruções exigem autorização específica para alterar credenciais. Não se solicitou senha/token no chat.
+- Bloqueio real: acesso autenticado com permissão de criar projeto. Configuração da variável de Preview, build remoto e testes públicos ainda NÃO EXECUTADOS.
 
 ## Produção e domínio
 

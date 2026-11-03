@@ -2,6 +2,8 @@
 
 Demonstração independente de Zi Wei Dou Shu em português do Brasil. O site gera um mapa básico no navegador, com o motor open-source do projeto [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu).
 
+Repositório independente desta adaptação: [anjox35-alt/astral-ptbr](https://github.com/anjox35-alt/astral-ptbr), branch `ptbr-preview`. O histórico publicado não contém o corpus de documentação do upstream.
+
 **Astral não é a plataforma oficial OURANIC e não possui vínculo oficial com ela.** Esta adaptação não inclui a interface comercial original, a base privada de interpretações ou IA completa.
 
 ## Origem e escopo
