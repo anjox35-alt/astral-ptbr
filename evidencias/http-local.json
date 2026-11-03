@@ -1,0 +1,77 @@
+[
+  {
+    "Path": "/",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/chart",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/about",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/privacy",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/terms",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/icon.svg",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/licenses/LICENSE.txt",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/licenses/THIRD_PARTY_NOTICES.txt",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/robots.txt",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/sitemap.xml",
+    "Status": 200,
+    "Source": "Verificado por fetch no navegador"
+  },
+  {
+    "Path": "/heming",
+    "Status": 404,
+    "Source": "Consulta deliberada no navegador"
+  },
+  {
+    "Path": "/api/interpret",
+    "Status": 404,
+    "Source": "Consulta deliberada no navegador"
+  },
+  {
+    "Path": "/api/heming",
+    "Status": 404,
+    "Source": "Consulta deliberada no navegador"
+  },
+  {
+    "Path": "/knowledge",
+    "Status": 404,
+    "Source": "Consulta deliberada no navegador"
+  },
+  {
+    "Path": "/library",
+    "Status": 404,
+    "Source": "Consulta deliberada no navegador"
+  }
+]

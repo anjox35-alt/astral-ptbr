@@ -1,0 +1,125 @@
+M	.env.example
+D	.github/ISSUE_TEMPLATE/1-chart-question.yml
+D	.github/ISSUE_TEMPLATE/2-bug-report.yml
+D	.github/ISSUE_TEMPLATE/3-site-issue.yml
+D	.github/ISSUE_TEMPLATE/4-feature-request.yml
+D	.github/ISSUE_TEMPLATE/5-other.md
+D	.github/ISSUE_TEMPLATE/config.yml
+M	.github/PULL_REQUEST_TEMPLATE.md
+M	.github/workflows/ci.yml
+M	.gitignore
+M	.npmrc
+M	CODE_OF_CONDUCT.md
+M	CONTRIBUTING.md
+M	DATASET-LICENSE
+M	LICENSE
+D	README.en.md
+M	README.md
+M	app/chart/page.tsx
+M	app/globals.css
+D	app/heming/page.tsx
+D	app/knowledge/[star]/[topic]/page.tsx
+D	app/knowledge/page.tsx
+M	app/layout.tsx
+D	app/library/LibrarySearch.tsx
+D	app/library/[book]/[chapter]/page.tsx
+D	app/library/[book]/page.tsx
+D	app/library/page.tsx
+D	app/library/search/page.tsx
+M	app/page.tsx
+D	app/preview/page.tsx
+M	app/privacy/page.tsx
+M	app/robots.ts
+M	app/sitemap.ts
+M	app/terms/page.tsx
+D	components/AnnouncementModal.tsx
+D	components/BirthForm.tsx
+D	components/ChartBoard.tsx
+D	components/ChartSummary.tsx
+D	components/ChatPanel.tsx
+D	components/FamousPersonCard.tsx
+D	components/InsightPanel.tsx
+D	components/PalaceCell.tsx
+D	components/PatternsCard.tsx
+D	components/ScrollIntro.tsx
+D	components/ShareCardCanvas.tsx
+D	components/ShareModal.tsx
+D	components/StarDetailPanel.tsx
+D	components/StarField.tsx
+D	components/ThemeProvider.tsx
+D	components/TimeNav.tsx
+D	lib/classics/data/gusuifu.ts
+D	lib/classics/data/quanji.ts
+D	lib/classics/data/quanshu.ts
+D	lib/classics/index.ts
+D	lib/classics/types.ts
+D	lib/nihai/diji.ts
+D	lib/nihai/index.ts
+D	lib/nihai/renji.ts
+D	lib/nihai/tianji.ts
+D	lib/nihai/types.ts
+D	lib/seo/knowledge.ts
+M	lib/site.ts
+M	lib/ziwei/algorithm.ts
+D	lib/ziwei/cities.ts
+D	lib/ziwei/clock-adjust.ts
+M	lib/ziwei/constants.ts
+D	lib/ziwei/db-analysis.ts
+D	lib/ziwei/dst-cn.ts
+D	lib/ziwei/famous.ts
+D	lib/ziwei/heming-knowledge.ts
+D	lib/ziwei/history.ts
+M	lib/ziwei/lunar-javascript.d.ts
+D	lib/ziwei/lunar-solar.ts
+D	lib/ziwei/patterns.ts
+M	lib/ziwei/school-config.ts
+M	lib/ziwei/school-data.ts
+M	lib/ziwei/school-tables.generated.ts
+D	lib/ziwei/share.ts
+D	lib/ziwei/shier-shen.ts
+D	lib/ziwei/sihua.ts
+M	lib/ziwei/true-solar-time.ts
+M	lib/ziwei/types.ts
+D	lib/ziwei/yunxian-context.ts
+M	next-env.d.ts
+M	next.config.js
+M	package-lock.json
+M	package.json
+M	postcss.config.js
+D	scripts/regression/birthform-birthinfo-consistency.test.ts
+D	scripts/regression/clock-adjust.test.ts
+D	scripts/regression/dst-cn.test.ts
+D	scripts/regression/famous-hour-consistency.test.ts
+D	scripts/regression/form-true-solar-day.test.ts
+M	scripts/regression/gender-validation.test.ts
+D	scripts/regression/heming-refresh.test.ts
+D	scripts/regression/heming-stream.test.ts
+D	scripts/regression/hongluan-tianxi.test.ts
+D	scripts/regression/iztro-time-index-boundary.test.ts
+M	scripts/regression/leap-policy-validation.test.ts
+M	scripts/regression/natal-dual-sihua-same-palace.test.ts
+D	scripts/regression/neutral-naming.test.ts
+M	scripts/regression/pan-integrity.test.ts
+D	scripts/regression/patterns-sihua-bonus.test.ts
+M	scripts/regression/sizhu-lichun-boundary.test.ts
+M	scripts/regression/solar-date-exists.test.ts
+M	tailwind.config.ts
+M	tsconfig.json
+.vercelignore
+RELATORIO.md
+THIRD_PARTY_NOTICES.md
+app/about/page.tsx
+app/icon.svg
+app/not-found.tsx
+components/LocalChart.module.css
+components/LocalChart.tsx
+evidencias/arquivos-alterados.txt
+evidencias/http-local.json
+evidencias/navegador-local.json
+lib/birth-input.ts
+lib/i18n/chart-pt-BR.ts
+lib/i18n/ui.ts
+public/licenses/LICENSE.txt
+public/licenses/THIRD_PARTY_NOTICES.txt
+scripts/regression/ptbr-input.test.ts
+vercel.json

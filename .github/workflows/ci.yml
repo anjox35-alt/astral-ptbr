@@ -1,0 +1,32 @@
+name: Verificação
+
+on:
+  push:
+    branches: [main, ptbr-preview]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: Tipos, regressões e build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Instalação reproduzível pelo lockfile.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci --no-audit --no-fund
+
+      - name: Verificar tipos
+        run: npm run typecheck
+
+      - name: Executar regressões
+        run: npm test
+
+      - name: Compilar aplicação
+        run: npm run build

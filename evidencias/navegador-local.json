@@ -1,0 +1,35 @@
+{
+  "localMobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "palaces": 12,
+    "summary": [
+      "Nascimento informado\n31/12/2000 · 23:30\nDia usado pelo motor\n01/01/2001\nRamo do horário\nRato\nElemento e ciclo\nFogo — ciclo 6\nData no calendário lunar\n7/12/2000\nSexo usado no cálculo tradicional\nMasculino",
+      "Ramo da casa da identidade\nBoi\nRamo do corpo\nBoi"
+    ],
+    "overflow": false,
+    "columns": "175px 175px",
+    "unknownTerms": false,
+    "han": false,
+    "localStorageCount": 0,
+    "sessionStorageCount": 0,
+    "apiCalls": 0,
+    "externalResources": []
+  },
+  "localDesktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "palaces": 12,
+    "overflow": false,
+    "columns": "287.797px 287.812px 287.797px 287.812px",
+    "unknownTerms": false,
+    "localStorageCount": 0,
+    "sessionStorageCount": 0,
+    "apiCalls": 0,
+    "externalResources": []
+  }
+}

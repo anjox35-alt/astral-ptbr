@@ -1,0 +1,29 @@
+{
+  "name": "astral-ptbr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/regression/pan-integrity.test.ts && tsx scripts/regression/gender-validation.test.ts && tsx scripts/regression/solar-date-exists.test.ts && tsx scripts/regression/leap-policy-validation.test.ts && tsx scripts/regression/sizhu-lichun-boundary.test.ts && tsx scripts/regression/natal-dual-sihua-same-palace.test.ts && tsx scripts/regression/ptbr-input.test.ts"
+  },
+  "dependencies": {
+    "iztro": "^2.5.8",
+    "lunar-javascript": "^1.7.3",
+    "next": "^16.4.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5"
+  }
+}

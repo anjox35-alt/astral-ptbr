@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+dist/
+*.tsbuildinfo
+.DS_Store
+node_modules
+
+# Referência local do upstream, fora do produto e da publicação.
+.upstream-reference/
+evidencias/*.log
