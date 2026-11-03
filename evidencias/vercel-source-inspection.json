@@ -1,0 +1,14 @@
+{
+  "project": "fon6/astral-ptbr",
+  "target": "preview",
+  "dryRun": true,
+  "framework": {
+    "name": "Next.js",
+    "slug": "nextjs"
+  },
+  "fileCount": 55,
+  "forbiddenFileCount": 0,
+  "forbiddenPaths": [],
+  "licenseIncluded": true,
+  "publicLicenseIncluded": true
+}

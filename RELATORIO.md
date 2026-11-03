@@ -77,18 +77,35 @@ URL testada: **http://localhost:3000**. Testes na aplicação compilada, por Chr
 
 ## Preview Vercel
 
-Somente iniciado após os gates locais. **IMPEDIDO POR ACESSO — nenhuma URL Preview criada.**
+Somente iniciado após os gates locais. **PROJETO CRIADO E CONECTADO AO GITHUB; nenhuma URL Preview criada ainda.**
 
 - Repositório independente criado e enviado: https://github.com/anjox35-alt/astral-ptbr, branch `ptbr-preview`.
 - Commit de implementação validada: `5d18bf9853c0722c04b8b5a397b9ae41fd4f9755`. Histórico raiz independente, sem pais upstream. Motor e licenças comparados contra a branch upstream local: nenhuma diferença.
-- Única equipe Vercel acessível encontrada: FON (`fon6`).
+- Equipe confirmada pelo proprietário: FON (`fon6`). Conta CLI autenticada: `anjox35-9469`.
+- Projeto criado: https://vercel.com/fon6/astral-ptbr. ID `prj_q2w1mIszCSE9qcQJxcTcSyUEtVHB`, equipe `team_PNsFnGMY8e31oaVYx6xE0mGj`, framework Next.js, Node 24.x, instalação `npm ci --no-audit --no-fund`, build `npm run build`.
+- Criação autenticada pela CLI/API: exit 0; `vercel link --yes --scope fon6 --project astral-ptbr`: exit 0. Inspeção posterior confirmou zero deployments.
 - `vercel.json` desativa deploys automáticos por Git; Preview será solicitado explicitamente pela API.
 - NEXT_PUBLIC_SITE_URL precisa corresponder à URL real fornecida pela Vercel; não foi inventado domínio ou alias.
-- Criação pelo conector `create_project`, escopo explícito `fon6`, projeto `astral-ptbr`: Vercel retornou **403 forbidden — You don't have permission to create the project**. Não houve projeto criado ou deploy.
+- Tentativa anterior pelo conector `create_project`, escopo explícito `fon6`, projeto `astral-ptbr`: Vercel retornou **403 forbidden — You don't have permission to create the project**. Essa tentativa não criou projeto; a CLI autenticada criou o projeto posteriormente.
 - Alternativa indicada pelo próprio conector: CLI oficial. Versão consultada no registro npm: 65.10.0. `npx --yes --package=vercel@65.10.0 vercel whoami --scope fon6`: **exit 1, login_required, saved login is not valid or has expired**.
-- Navegador em `https://vercel.com/dashboard` redirecionou para login. Nenhuma autenticação nova foi feita e nenhuma credencial foi alterada.
+- O login oficial da CLI foi concluído posteriormente pelo proprietário; `vercel whoami --scope fon6` confirmou a conta, e `vercel teams ls` confirmou FON no plano Hobby.
 - Solicitação de autorização para login oficial apresentada ao proprietário, porque suas instruções exigem autorização específica para alterar credenciais. Não se solicitou senha/token no chat.
-- Bloqueio real: acesso autenticado com permissão de criar projeto. Configuração da variável de Preview, build remoto e testes públicos ainda NÃO EXECUTADOS.
+- A criação com `gitRepository` e a primeira conexão por `vercel git connect` falharam por falta de acesso ao repositório. A inspeção no GitHub mostrou que a integração oficial já existia, limitada a outro repositório. Após a escolha explícita do proprietário, `anjox35-alt/astral-ptbr` foi adicionado à seleção, preservando o acesso preexistente e sem selecionar todos os repositórios. `Genuino-Engine/Ar` não foi alterado nem utilizado.
+- `vercel git connect https://github.com/anjox35-alt/astral-ptbr --scope fon6 --yes`: exit 0, Connected. Leitura posterior da API confirmou `link.type=github`, `org=anjox35-alt`, `repo=astral-ptbr`, `productionBranch=ptbr-preview` e zero deployments. Deploy automático por Git permanece desativado no código; o próximo deploy será explicitamente Preview.
+- CI do código mais recente `f207c020de91aebe3d41b3db2b86ffb70afafb24`: `completed/success`, confirmado por `gh run list` (exit 0), execução https://github.com/anjox35-alt/astral-ptbr/actions/runs/41604856868.
+- `vercel deploy --dry --json --environment preview --project astral-ptbr --scope fon6`: exit 0, 55 arquivos, zero caminhos privados/proibidos selecionados, LICENSE e licença pública presentes. Evidência: `evidencias/vercel-source-inspection.json`. Nenhum deploy é criado por esse comando.
+- `vercel link` gerou uma variável OIDC local da plataforma; seu valor não foi lido nem registrado. `.env.local` e `.vercel/` foram confirmados como ignorados por Git e excluídos da seleção de deploy.
+- Pendência real: configurar a variável com o alias efetivamente retornado pela Vercel, concluir o build remoto e executar os testes públicos. Esses itens ainda NÃO EXECUTADOS.
+
+## Setup global Vercel solicitado
+
+Guia solicitado e lido integralmente: https://vercel.com/get-started.md. A ferramenta web recusou o tipo `text/markdown`; a leitura HTTP direta foi concluída com exit 0.
+
+- CLI global: `npm install --global vercel@latest`, exit 0. `vercel --version`: 65.10.0; `vercel whoami --scope fon6`: autenticado.
+- Plugin: `npx --yes plugins add vercel/vercel-plugin --target codex --scope user --yes`, exit 0. `codex plugin list --json` confirmou `vercel@openai-curated-remote`, versão 0.54.1, `installed=true`, `enabled=true`. A instalação foi limitada ao Codex, sem instalar nos outros editores propostos pelo instalador. Não foi instalado o pacote adicional de skills separado.
+- MCP compartilhado: `codex mcp add vercel --url https://mcp.vercel.com` adicionou a entrada global. O consentimento OAuth ainda precisa ser concluído; a primeira espera expirou sem callback. Não é reportado como MCP autenticado.
+- Configuração: `C:/Users/Anjox/.codex/config.toml`; backup privado em `config.toml.vercel-setup-20261103.backup`, hash conferido e ACLs iguais às do original. Comparação dos demais campos encontrou 128 valores equivalentes, reformatação de TOML e omissão de um array de argumentos vazio; nenhum argumento foi acrescentado e nenhuma outra configuração foi restaurada ou descartada.
+- Nenhuma política de aprovação foi afrouxada e nenhum aplicativo ou sessão foi reiniciado. A autorização MCP deve ficar limitada ao projeto novo; os projetos existentes não são alvo desta tarefa.
 
 ## Produção e domínio
 
